@@ -1,0 +1,41 @@
+16 bit compiler
+int 2 bytes
+
+32 bit compiler
+int 4 bytes
+
+short int 
+
+int long
+
+unary = 1
+ternary = 3
+
+Binary: 0 and 1 = 2
+
+short/2 int/2or4 long/4 : 
+
+char/1
+
+float/4 long/8
+
+double/8 long/10
+
+signed : -ve and +ve
+
+unsigned : +ve
+
+1 byte = 8 bits
+short: 2 bytes = 2 * 8 = 16 bits
+
+Short int: 2 ^ 16 = 65536
+
+unsigned: 0 to 65535
+
+signed: 65536/2 = 32768 = -32768 to 32767
+
+-32768 to -1 and 0 to 32767
+
+int a; //by default signed
+
+unsigned int a; 
