@@ -1,0 +1,39 @@
+Static:
+
+-Static local variables
+-Static Member variables
+-Static Member functions
+
+Static Local Variable:
+
+-Concepts as it is taken from Concepts
+-They are by default initialized to 0.
+-Their lifetime is throughout the program.
+
+Static Member Variable:
+
+-Declared inside the class body
+-Also known as class member variables
+-They must be defined outside the class
+-Static member variable does not belong to any object, but to the whole class.
+-There will be only one copy of static member variable for the whole class.
+-Any Object can use the same copy of class variable.
+-They can also be used with class name.
+
+Static Member functions:
+
+-They are qualified with the keyword static.
+-They are also called class member functions.
+-They can be invoked/called with or without object.
+-They can only access static members of the class.
+
+
+
+
+
+
+
+
+
+
+
