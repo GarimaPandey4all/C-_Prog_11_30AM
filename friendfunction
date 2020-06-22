@@ -1,0 +1,17 @@
+Friend function is not a member function of a class to which it is a friend.
+
+Friend function is declared in the class with friend keyword.
+
+It must be defined outside the class to which it is friend.
+
+Friend function can access any member of the class to which it is friend.
+
+Friend function can't access members of the class directly.
+
+It has no caller object.
+
+Pure Virtual Function or Abstract Function:
+
+Implementation of all function cannot be provided in a parent class because we don't know the implmentation. such a class called as abstract class. 
+
+A pure virtual function or abstract function in C++ is a virtual function for which we don't have implmentation, we only declare it. A pure virtual function is declared with 0 value in declaration.
