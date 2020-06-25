@@ -1,0 +1,23 @@
+int a;
+
+a = 34.78;
+
+a = 34;
+
+In C.
+
+int array[10];
+
+array[11] = 14;
+
+out of bound error: C does not check the boundaries.
+
+
+Exception Handling: abnormal behaviour: runtime errors in C++
+
+try
+
+throw
+
+catch
+
