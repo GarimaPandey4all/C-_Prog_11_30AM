@@ -1,0 +1,14 @@
+Templates: Generic Programming
+
+A single program accepts different types of data: 
+
+Two concepts:
+
+1. Reuseability
+2. Flexibility 
+
+Generic means generalization and generalization means that based on the data type that you can write on the code which can work for any type of data.
+
+Two types of templates:
+1. Function Templates
+2. Class Templates
