@@ -1,0 +1,78 @@
+STL: Standard Template Library
+
+Template-> generic programming--> for different types of data
+
+-->It is a powerful set of C++ template classes.
+
+-->It has three well-structured components:
+
+	1. Containers
+	2. Algorithms
+	3. Iterators
+	
+1. Containers:
+
+	Containers are used to manage collections of objects of a certain kind.
+	
+	Container library in STL provide container that are used to create data structures ike arrays, linked list, trees etc.
+	
+	These containers are generic they can hold elements of any data types.
+	
+	Example:
+	
+	vector can be used for creating dynamic arrays of char, integer, float and other types.
+	
+2. Algorithms:
+
+	Algorithms act on containers. They provide the means by which you will perform initialization, sorting, searching and transforming of the contents of containers.
+
+	Algorithms library contains built-in functions that performs complex algorithms on the data structures.
+	
+	Algorithms provides the abstraction.
+	
+3. Iterators: Repetition
+
+	Iterators are used to step through the elements of collections of objects. These collections may be containers or subsets of containers.
+	
+	Iterators in STL are used to point to the containers.
+	
+	Iterators actually acts as a bridge b/w containers and algorithms.
+	
+	
+stack obj;
+
+obj.push();
+obj.pop();
+
+--> Common Containers:
+
+vector: replicates arrays
+queue: replicates queues
+stack: replicates stack
+priority_queue: replicates heaps
+list: replicates linked list
+set: replicates trees
+map: associative arrays
+
+-->Classification of Containers:
+
+Sequence Containers:
+array, linked list
+
+Associative Containers:
+sorted data structures like map, set etc
+
+-->How to use container library?
+
+When we use list containers to implement linked list we just have to include the list header file and use list constructor to initialize the list.
+
+
+Syntax:
+
+#include <iostream>
+#include <list>
+
+int main()
+{
+	list<int> mylist;
+}
