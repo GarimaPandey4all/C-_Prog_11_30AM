@@ -1,0 +1,81 @@
+STL - Array:
+
+-Array is a linear collection of similar elements.
+
+-Array container in STL provides us the implementation os static array.
+
+syntax:
+
+include array in header file
+
+array <int, 5> obj
+
+-->creating array objects:
+
+array<object_type, array_size> array_name;
+
+It creates an empty array of object_type with maximum size of array_size.
+
+-->Assignment/Initialization
+
+array <int, 5> dataarray = {10, 20, 30, 40, 50}; //declaration and initialization
+
+-->Member functions:
+
+-at()
+-[]->subscript operator
+-front()
+-back()
+-fill()
+-swap()
+-size()
+-begin()
+-end()
+
+1. at()
+
+This method returns value in the array at the given range.
+
+If the given range is greater than the array size, out of range exceptions is thrown.
+
+2. [] operator
+
+The use of operator[] is same as it was for normal arrays.
+
+3. front() and back()
+
+front() method returns the first element in the array.
+
+Back() method returns the last element in the array.
+
+4.  fill()
+
+This method assigns the given value to every element of the array.
+
+5. swap()
+
+This method swaps the content of two arrays of same type and same size.
+
+It swapss index wise, thus element of index i of first array will be swapped with the element of index i of the second array.
+
+-firstarray.swap(secondarray);
+
+6. size()
+
+This method returns the number of element present in the array.
+
+7. begin() and end()
+
+begin() method returns an iterator pointing to the first element of the array.
+
+end() method returns an iterator pointing to an element next to the last element in the array.
+
+
+
+
+
+
+
+
+
+
